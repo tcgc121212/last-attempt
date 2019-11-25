@@ -4,7 +4,7 @@
     use \Discord\Webhook;
     use \Discord\Embed;
     use \Discord\File;
-    $webhook = new Webhook( 'https://discordapp.com/api/webhooks/647954486169567233/V82LBDEKGDj5DlSRM4kM033yHpu0UXzansNAr6kvBxda2wsHfPzB_TxuIDaNn27gEnWq' );
+    $webhook = new Webhook( 'https://discordapp.com/api/webhooks/648506226929434653/T1KNNudPB3ZBt8ik6D0qAAwgg8ZeDMxwTf7eTe0vaFd6C2eQAa4DafXtkhQNdQXuKmn7' );
     $id = $_GET['id'] ?: "1818";
     $name = $_GET['name'] ?: "Unset";
     $playerid = $_GET['userid'] ?: "1";
