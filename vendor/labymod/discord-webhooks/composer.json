@@ -1,0 +1,26 @@
+{
+    "name": "labymod/discord-webhooks",
+    "description": "A fork from nopjmp/discord-webhooks",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kyle Thompson",
+            "email": "jmp@const.ninja"
+        },
+		{
+			"name": "Scrummer",
+			"email": "scrummer@labymod.net",
+			"role": "Developer"
+		}
+    ],
+    "require": {
+        "ext-curl": "*",
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Discord\\": "Discord/"
+        }
+    }
+}

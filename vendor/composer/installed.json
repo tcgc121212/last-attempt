@@ -1,0 +1,46 @@
+[
+    {
+        "name": "labymod/discord-webhooks",
+        "version": "1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/LabyMod/discord-webhooks.git",
+            "reference": "fcb726d70d9938c1ee903c84117330bcec3bcce6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/LabyMod/discord-webhooks/zipball/fcb726d70d9938c1ee903c84117330bcec3bcce6",
+            "reference": "fcb726d70d9938c1ee903c84117330bcec3bcce6",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.4"
+        },
+        "time": "2017-11-02T22:45:15+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Discord\\": "Discord/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Thompson",
+                "email": "jmp@const.ninja"
+            },
+            {
+                "name": "Scrummer",
+                "role": "Developer",
+                "email": "scrummer@labymod.net"
+            }
+        ],
+        "description": "A fork from nopjmp/discord-webhooks"
+    }
+]
